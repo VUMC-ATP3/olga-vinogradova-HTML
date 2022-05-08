@@ -1,0 +1,26 @@
+.note{
+    color:blue 
+}
+h3 {color:blueviolet;
+background-color: aqua}
+
+
+
+.full{
+    border-style: none;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+
+.left{background-color:burlywood; 
+    
+    
+float:left}
+
+.right{background-color:cornsilk;
+    
+    
+float:right}
+
+    #vecums {width: 50px;height: 100px;}

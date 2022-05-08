@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Great day</title>
+
+    <link href="style.css" rel="stylesheet">
+
+</head>
+
+
+
+
+
+<body>
+<div class="full">
+    <div class="left">
+    <!--p nozime paragrafs-->
+    <h1 id="pirmaisHeading">Mans pirmais HTML dokuments
+    </h1>
+    <h2 class="note">Sis ir pirmais paragrafs</h2>
+<p class="note">
+    sis ir <strong>apraksts par mani. </strong>
+
+<a href="https://www.lipsum.com/feed/html" target="_blank">LINKEDIN</a>
+
+
+
+
+    <h6 class="note">Apaksvirsraksts</h6>
+</p>
+
+
+<br>
+<br>
+<h2>sis ir otrais paragrafs</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tincidunt, arcu sed sagittis tristique, turpis enim egestas neque, ut accumsan orci ex vel dui. Sed vestibulum in lectus quis auctor. Aliquam tincidunt vulputate ipsum quis interdum. Suspendisse pulvinar tempor viverra. Nulla at vehicula sapien. Curabitur vel nulla ac neque dignissim eleifend. Sed non erat in est vulputate efficitur vel eu lacus. In a tempus diam. Proin elementum, dolor at hendrerit rutrum, tellus odio pulvinar nulla, sit amet feugiat nisl nunc vel dolor. Integer sed maximus nisi. Quisque feugiat justo id ornare bibendum. Praesent at nunc tellus. Nam blandit eget elit vel consectetur. Aenean tristique auctor elementum. Quisque vehicula suscipit risus vitae dignissim.</p>
+
+<h2>Bilde Venezia</h2>
+
+<img src="img/Venezia.jpg" width="10%">
+
+</div>
+
+<div class="right">
+
+
+<input id="vecums" maxlength="3">
+<button id ="poga">spied mani</button>
+<p>Lietotāja vecums ir: <strong id="lietotajavecums"></strong>> </p>
+<h3>iepirkumu saraksts</h3>
+<ul>
+
+<li>piens</li>
+<li>maize</li>
+<li>cukurs</li>
+
+</ul>
+
+<h3 style="color:blueviolet"></h3>
+
+<h3>ka uzvarit teju</h3>
+<ol>
+
+<li>jauzvara udens</li>
+<li>jaieber taja kruze</li>
+<li>jaelej udens kruze</li>
+<li>japagaida kamer teja ievilksies</li>
+
+</ol>
+
+</div>
+</div>
+
+</body>
+<script>
+    document.getElementById("poga").onclick = function() {
+        var vecums = document.getElementById("vecums").value;
+        alert("Hello Olga! Tavs vecums ir " +  vecums);
+        document.getElementById("lietotajavecums").innerText = vecums;
+    };
+    
+    </script>
+
+</html>
