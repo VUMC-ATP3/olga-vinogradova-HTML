@@ -1,15 +1,21 @@
 .note{
     color:blue 
 }
-h3 {color:blueviolet;
-background-color: aqua}
-
-
+h3 {color:rgb(31, 30, 30)}
+h3{text-decoration: underline}
+h4 {color:rgb(36, 35, 35)}
+h4{font-style: italic;}
+#pirmaisHeading{
+    font-style: italic;
+}
+#pirmaisHeading{
+    color:rgb(68, 66, 66);
+}
 
 .full{
     border-style: none;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 40% 60%;
 }
 
 
